@@ -1,0 +1,78 @@
+.row > div{
+	position: relative;
+    background-color: gray;
+    box-sizing:border-box;
+    text-align: left;
+    border: 2px solid black;
+    padding-top: 25px;
+    margin:0.16%;
+    font-family: sans-serif;
+}
+#our-menu {
+	text-align: center;
+	font-family: sans-serif;
+}
+/* for mobile */
+[class*="col-"]{
+	float:left;
+	width: 100%;
+}
+/* for tablet */
+@media (min-width: 768px) and (max-width: 991px){
+	.col-m-6, .col-m-12{
+    float:left;
+	}
+    .col-m-6 {width:49%;}
+    .col-m-12 {width:98.4%;}
+}
+/* for desktop */
+@media (min-width: 992px){
+	.col-4,{
+	float:left;	
+	}
+    .col-4 {width:33%;}
+}
+#Chicken {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	background-color: pink;
+	border: 1px solid black;
+	box-sizing: border-box;
+	width: 100px;
+	height: 25px;
+	font-size: 1.25em;
+	font-family: sans-serif;
+}
+#Beef {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	background-color: red;
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 100px;
+	height: 25px;
+	font-size: 1.25em;
+	font-family: sans-serif;
+}
+#Sushi {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: yellow;
+	text-align: center;
+	border: 1px solid black;
+	box-sizing: border-box;
+	width: 100px;
+	height: 25px;
+	font-size: 1.25em;
+	font-family: sans-serif;
+}
+
+
+
+
+
